@@ -38,6 +38,9 @@ function addItem(e){
 
     //add new li 
     itemList.appendChild(newLi);
+
+    //clear input value after submit
+    document.getElementById('item').value = ''
 }
 
 // remove item
